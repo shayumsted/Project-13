@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Show error message
     function showError() {
         loadingElement.classList.add('hidden');
-        errorElement.classList.remove('hidden'); }
+        errorElement.classList.remove('hidden');}
 
     // Handle Previous button click
     prevBtn.addEventListener('click', () => {
