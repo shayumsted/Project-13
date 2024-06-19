@@ -25,8 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 productDisplayElement.classList.remove('hidden');
             } else {
                 showError();
-            }
-        })
+            } })
         .catch(() => {
             showError();
         });
@@ -36,24 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
         productNameElement.textContent = product.name;
         productImgElement.src = product.image;
         productPriceElement.textContent = `$${product.price}`;
-        productDescriptionElement.textContent = product.description;
-    }
+        productDescriptionElement.textContent = product.description;}
 
     // Show error message
     function showError() {
         loadingElement.classList.add('hidden');
-        errorElement.classList.remove('hidden');
-    }
+        errorElement.classList.remove('hidden'); }
 
     // Handle Previous button click
     prevBtn.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + products.length) % products.length;
-        displayProduct(products[currentIndex]);
-    });
+        displayProduct(products[currentIndex]); });
 
     // Handle Next button click
     nextBtn.addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % products.length;
-        displayProduct(products[currentIndex]);
-    });
+        displayProduct(products[currentIndex]);});
 });
