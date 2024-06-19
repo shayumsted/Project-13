@@ -1,1 +1,1 @@
-# Project-13
+The new project will allow deeper access to personal skills in creating user-friendly spaces, API communication, and DOM manipulation. This project will be used to develop a Dynamic Product Dyisplay that will be capable of fetching product information. The application will fetch the info in a constructive way from an API to easily display the proper feedback. 
