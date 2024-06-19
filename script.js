@@ -1,7 +1,8 @@
 // U78784426
 document.addEventListener('DOMContentLoaded', () => {
     const API_URL = 'https://course-api.com/react-store-products';
-    const loadingElement = document.getElementById('loading');
+    // Loading state
+    const loadingElement = document.getElementById('loading'); 
     const errorElement = document.getElementById('error');
     const productDisplayElement = document.getElementById('product-display');
     const productNameElement = document.getElementById('product-name');
