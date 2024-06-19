@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const productDescriptionElement = document.getElementById('product-description');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
-
+// Let terms
     let products = [];
     let currentIndex = 0;
 
@@ -28,8 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showError();
             } })
         .catch(() => {
-            showError();
-        });
+            showError();});
 
     // Display product
     function displayProduct(product) {
