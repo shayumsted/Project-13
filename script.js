@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const API_URL = 'https://course-api.com/react-store-products';
     // Loading state
     const loadingElement = document.getElementById('loading'); 
+    // Error implementation
     const errorElement = document.getElementById('error');
     const productDisplayElement = document.getElementById('product-display');
     const productNameElement = document.getElementById('product-name');
