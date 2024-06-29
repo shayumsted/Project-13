@@ -12,12 +12,11 @@ body {
     max-width: 600px;
     padding: 20px;
     background-color: rgb(224, 215, 215);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;}
 
 #loading, #error {
     font-size: 1.2em;
-    color: #333;}
+    color: #5a3232;}
 
 .hidden {
     display: none;}
@@ -46,4 +45,4 @@ button {
     transition: background-color 0.3s;}
 
 button:hover {
-    background-color: #0056b3;}
+    background-color: #32b6b6;}
